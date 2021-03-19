@@ -1,0 +1,158 @@
+
+
+
+body {
+
+  
+background-image: url("bg4.jpg");
+  font-family: 'Roboto';
+
+  background-size: 100%;
+  padding: 20px;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+ 
+}
+
+.button {
+  background-color: #7c7c7c2b; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {border-radius: 12px;}
+
+button.button2 {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+
+/*this is the overall square displayed*/
+.displayCondition {
+  font-weight: lighter;
+  display: none;
+  padding: 10px;
+  width: 10%;
+  height: 27vw;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  border: 1px solid purple;
+ font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  /*font-size: 14px;*/
+  background-color:#7c7c7c2b;
+  overflow: hidden;
+	  color: white;
+}
+
+
+
+
+#headerTitle {
+  padding: 20px;
+  color: whitesmoke;
+	font-family: 'Open Sans', sans-serif;
+ 
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+#day0, #day1, #day2, #day3, #day4, #day5, #day6{
+  font-size: 1.5vw;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#high0, #high1, #high2, #high3, #high4, #high5, #high6 {
+  display: block;
+  font-size: 1.4vw;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#inputLine {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#instructions {
+  font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 2px;
+  text-align: center;
+	color: darkgray;
+}
+
+#low0, #low1, #low2, #low3, #low4, #low5, #low6 {
+  display: block;
+  font-size: 1.4vw;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#setColumns {
+  display: block;
+  height: 20%;
+  margin: 0 auto;
+  padding-left: 10vw;
+}
+
+#weather_desc0, #weather_desc1, #weather_desc2, #weather_desc3, #weather_desc4, #weather_desc5, #weather_desc6 {
+  display: block;
+  font-size: 1vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#weather_img_icon0, #weather_img_icon1, #weather_img_icon2, #weather_img_icon3, #weather_img_icon4, #weather_img_icon5, #weather_img_icon6 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+    #weather_img_icon0, #weather_img_icon1, #weather_img_icon2, #weather_img_icon3, #weather_img_icon4, #weather_img_icon5, #weather_img_icon6 {
+    width: 5vw;
+  }
+}
+
+
+
+
+body.loading {
+    overflow: hidden;
+}
+
